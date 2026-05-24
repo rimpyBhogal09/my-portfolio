@@ -1,13 +1,10 @@
 import Image from "next/image";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white">
-      <h1 className="text-5xl font-bold">Hey, I'm Rimpy 👋</h1>
-      <p className="mt-4 text-xl text-gray-400">Portfolio coming soon...</p>
-
-      {/* Temporary spacer to test scroll */}
-      <div style={{ height: "200vh" }} />
+    <main>
+      <Hero />
     </main>
   );
 }
